@@ -1,0 +1,22 @@
+Design Description 
+
+Patient class is used to record patient’s information such as name, birthday, health card number and symptoms, vital signs, urgency level, arrival and seen doctor time. Name, birthday, health card number can be recorded directly in this class, other information can be obtained by calling methods from VitalSign class, UrgencyLevel class, Doctor class and Time class. 
+
+Nurse class can use Patient, VitalSign, Time, and TriageApplication, UrgencyLevel and EmergencyRoom class. It can launch the triage, get list of patients and information such as their data, vital sign, symptoms, level of urgency and record arrival and doctor time. NotSeenUrgency and NotSeenArrival are two method that can be used to access the list of patients who have not been seen by a doctor. NotSeenUrgency method orders the list of patients by decreasing urgency level, so it can call the methods from UrgencyLevel class. NotSeenArrival categorized the list of patients by their arrival time, so it can be done by calling method from Time class. Since the particular time of recording patient’s arrival time, personal data, vital signs, symptoms need to be recorded, methods under Time class can be called. 
+ 
+Doctor class can view patients’ information but cannot change them, so it can access in Patient class. 
+
+Time class is a list of time data, recorded by nurse for patient arrival time, update time for vital sign, symptoms and seen doctor time. 
+
+UrgencyLevel class is used to determine the urgency level of each patient. It is based on the result of TotalPoint method under HospitalPolicy class. UrgencyLevel will return urgent if the points is from 3 to 4, return less urgent if it is 2 points and return non urgency for points under 2. 
+
+
+HospitalPolicy class is used to obtain the points of urgency level. It has access to Patient class and VitalSign class One additional point will be assigning if any of the conditions(the patient is less than two years old, the patient’s blood pressure is temperature is equal or greater than 39.0 degree Celsius,  and the patient’s pressure does not meet normal standard.) are met. TotalPoint method can return the total point of each patient evaluated.
+
+VitalSign class can be accessed by Patient, Nurse, and Hospital Policy class. It is a list of data such as temperature, blood pressure, and heart rate.
+
+TriageApplication class, by nurse, accesses in Patient and Nurse, Time, is a dictionary for patients and their data., update time. In addition, it is used to record, update and save patients data.
+
+EmergencyClass is used to record the list of patient’s name. Patient’s name can be order by decreasing level of urgency and arrival time of the patient’s.
+
+HealthLevel class is used to compare a patient’s health level based on his new and older data, according to HospitalPolicy class.
