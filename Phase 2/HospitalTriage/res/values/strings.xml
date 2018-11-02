@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="app_name">HospitalTriage</string>
+    <string name="patientprofileheader">Patient Profile</string>
+    <string name="action_settings">Settings</string>
+    <string name="header">Patient Information Lookup</string>
+    <string name="findpatient">Find Patient</string>
+    <string name="viewall">View All Patients</string>
+    <string name="typehcn">Health Card Number</string>
+    <string name="title_activity_patient_list">PatientList</string>
+    <string name="patientlistheader">Patient List</string>
+    <string name="title_activity_patient_profile">PatientProfile</string>
+    <string name="profileheader">Profile</string>
+    <string name="hcn">Health Card No.: </string>
+    <string name="visitrecordheader">\nVisit Record:</string>
+    <string name="name">Name: </string>
+    <string name="dob">Date of Birth:</string>
+    <string name="title_activity_visit_record">VisitRecord</string>
+
+</resources>
