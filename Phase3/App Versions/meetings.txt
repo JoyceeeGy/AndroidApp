@@ -1,0 +1,41 @@
+Planning Meeting 1
+November.14.2014
+
+Current state of the project:
+- Finished the design
+- Did a scenario walkthrough of the functions of our application
+- Decided on the genral layouts of our application 
+- Assigned task for each member
+- Started implementing our design
+
+Tasks for this week:
+- implement the searching of a Patient's prescription with a given Health Card Number.(Joyce)
+- implement the update of a Patient's prescription with a given Health Card Number and new medication name and instructions. (Joyce)
+- implement the update of Patient's record with a given Patients' Record. (Joyce)
+- implement the reading of Login accounts and passwords from file. (Alex)
+- implement the checking of correctness for account and password with a given account information. (Alex)
+- implement the determination of type of an account with a given account information. (Alex)
+- implement the ordering by decreasing urgency of patients unseen by doctor. (Alex)
+- create Login menu activity. (Jasmine)
+- connect user methods with activity. (Jasmine)
+- create record of a new patient. (Yifan)
+- connect buttons with designated views on UI. (Yifan)
+
+Status Meeting 1
+November. 18. 2014
+
+Jasmine
+- created Login menu activity
+- connecting user methods with activity
+Joyce
+- implemented the searching of a Patient's prescription with a given Health Card Number
+- implemented the update of a Patient's prescription with a given Health Card Number and new medication name and instructions
+- implementing the update of new patient's record
+Alex
+- implemented the reading of account information in file
+- implemented the determination of type of account
+- implemented the correctness of account and password
+- implementing the ordering of patients unseen by doctor
+Yifan
+- creating record of a new patient
+- connecting buttons with designated views on UI(in progress)

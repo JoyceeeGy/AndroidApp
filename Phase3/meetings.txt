@@ -1,0 +1,78 @@
+Planning Meeting 1
+November.14.2014
+
+Current state of the project:
+- Finished the design
+- Did a scenario walkthrough of the functions of our application
+- Decided on the general layouts of our application 
+- Assigned task for each member
+- Started implementing our design
+
+Tasks for this week:
+Joyce:
+- implement the searching of a Patient's prescription with a given Health Card Number.
+- implement the method for updating a Patient's prescription.
+- create activity for updating prescription for a patient.
+Alex:
+- implement the reading of Login accounts and passwords from file.
+- implement the method for checking correctness of account info on LoginActivity.
+- implement the method for determining the type of a given account.
+- implement the categorized list of patients who haven’t seen by a doctor.
+Jasmine:
+- create Login menu activity.
+- connect User’s methods with LoginActivity.
+- create an activity for recording a new doctor record.
+Yifan:
+- create an activity for recording a new patient.
+- connect the buttons on various views with designated views on UI.
+
+—------------------------------
+Status Meeting 1
+November.18.2014
+
+Jasmine:
+- finished implementing LoginActivity.
+- (in progress) starting to create DoctorActivity.
+Joyce:
+- finished implementing Physician class.
+- finished implementing the layout of NewPrescription activity.
+- (in progress) connecting Physician and Patient class with the NewPrescription activity.
+Alex:
+- finished implementing Nurse class.
+- finished implementing the new functions of User class.
+- (in progress) connecting User class with LoginActivity. (Delegated)
+Yifan:
+- finished implementing NewPatientRecord activity.
+- re-organized MainActivity with addNewPatient and Logoff button.
+- (in progress) connecting different views with buttons.
+
+—------------------------------
+Planning Meeting 2
+November.24.2014
+
+Jasmine:
+- Fix LoginActivity’s bugs (EditText of password & position of msg TextView).
+- Finish the implementation of DoctorActivity.
+- Make the logo of this application.
+Yifan:
+- Connect all the activities once they are done.
+- Separate the views and functions on the application between Nurse and Physician.
+- Re-organized the elements(e.g. buttons & textviews) on all the views.
+Alex:
+- Make User & Patient serializable.
+- Make sure all the events (e.g. buttons’ onClick method) work.
+- Test all the current functionalities.
+Joyce:
+- Write javadoc for newly added classes and methods.
+- Refine the reading method for prescription.
+- Test the writing, reading and saving of different records.
+
+—------------------------------
+Status Meeting 2
+November.26.2014
+
+(A short, informal meeting before the deadline)
+Conclusion:
+Current state of the project - All the required functionalities have been implemented. 
+Next Step - The team would be separated into two groups. One (Yifan and Jasmine) focuses on improving UI and the other (Alex and Joyce) focuses on debugging and organizing codes. 
+

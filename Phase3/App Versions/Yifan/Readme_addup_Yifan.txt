@@ -1,0 +1,2 @@
+In Phase 3, we worked on the connection between activities and methods of all the classes.
+The interfaces of activities are enhanced and redesigned to fit the usage of the app, giving better user experience.
